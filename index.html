@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2.13</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body style="background-color:rgb(234, 244, 148);">
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Ejercicio 2.13</a></li><br>
+            <li><a href="ejerciciouno.html">Ejercicio 2.19</a></li><br>
+            <li><a href="ejerciciodos.html">Ejercicio 2.21</a></li><br>
+            <li><a href="ejerciciotres.html">Ejercicio 2.24</a></li><br>
+        </ul>
+    </nav>
+    
+
+    <div class="container">
+        <h3>Calcular el área de un triángulo</h3>
+        <div id="tabla"></div>
+        <form id="formulario">
+            <div class="row" style="margin-top: 25px;">
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="lado1" name="lado1" placeholder="Ingrese la longitud del primer lado del triangulo" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 25px;">
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="lado2" name="lado2" placeholder="Ingrese la longitud del segundo lado del triangulo" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 25px;">
+                <div class="col-sm-4">
+                    <input class="form-control" type="text" id="lado3" name="lado3" placeholder="Ingrese la longitud del tercer lado del triangulo" required>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 25px;">
+                <div class="col-sm-4">
+                    <button type="submit" class="btn btn-info">Calcular</button>
+                </div>
+            </div>
+            <span class="text-danger" id="error"></span>
+        </form>
+    </div>
+    
+    <script src="js/Ejercicio213.js"></script>
+</body>
+</html>
